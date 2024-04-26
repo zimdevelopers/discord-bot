@@ -45,6 +45,7 @@ To contribute code to the bot, please follow these steps:
 7. In your pull request description, reference the issue you created in step 6 (e.g., "Fixes #123").
 8. Submit a pull request from your branch to the main branch of this repository.
 5. Ensure your code adheres to the project's coding standards and passes all tests.
+6. Tag @mikeyny or @gtchakama for code reviews.
 
 The team will review your pull request and provide feedback.
 
