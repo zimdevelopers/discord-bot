@@ -32,13 +32,21 @@ To run the bot locally, follow these steps:
    - `MAIN_CHANNEL_ID`: The ID of the main channel where the bot will operate.
 5. Start the bot by running `npm start`.
 
-## How to Contribute
-Contributions to this project are welcome and encouraged. To contribute, please:
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Write your code and commit your changes.
-4. Push your branch and create a pull request against the main branch.
+## Contributing Code
+
+To contribute code to the bot, please follow these steps:
+
+1. Fork the repository to your GitHub account.
+2. Clone your forked repository to your local machine.
+3. Create a new branch for your changes (`git checkout -b my-feature`).
+4. Make your changes and commit them with descriptive commit messages.
+5. Push your changes to your forked repository (`git push origin my-feature`).
+6. Go to the [Issues](../../issues) tab of this repository and create a new issue if one doesn't already exist for your contribution.
+7. In your pull request description, reference the issue you created in step 6 (e.g., "Fixes #123").
+8. Submit a pull request from your branch to the main branch of this repository.
 5. Ensure your code adheres to the project's coding standards and passes all tests.
+
+The team will review your pull request and provide feedback.
 
 ## Technologies Used
 - Node.js: The runtime environment for the bot.
