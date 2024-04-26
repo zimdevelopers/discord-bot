@@ -10,7 +10,7 @@ function scheduleDaily() {
     
             if (topContributors.length > 0) {
                 const message = `🏆 Today's top contributor is ${topContributors[0].user} with ${topContributors[0].daily} contributions!\n\nSecond place is ${topContributors[1].user} (better luck next time)`;
-                const channel = await client.channels.fetch('1221348993947406381');
+                const channel = await client.channels.fetch(process.env.MAIN_CHANNEL_ID);
                 channel.send(message);
             }
         } catch (e) {
